@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="#1a73e8" opacity="0.1"/>
+  
+  <!-- Connected Nodes representing Data Structures -->
+  <g fill="#1a73e8">
+    <!-- Main Center Node -->
+    <circle cx="256" cy="256" r="40"/>
+    
+    <!-- Surrounding Nodes -->
+    <circle cx="156" cy="206" r="30"/>
+    <circle cx="356" cy="206" r="30"/>
+    <circle cx="206" cy="356" r="30"/>
+    <circle cx="306" cy="356" r="30"/>
+    
+    <!-- Connecting Lines -->
+    <path d="M256 216 L156 206" stroke="#1a73e8" stroke-width="8"/>
+    <path d="M256 216 L356 206" stroke="#1a73e8" stroke-width="8"/>
+    <path d="M256 296 L206 356" stroke="#1a73e8" stroke-width="8"/>
+    <path d="M256 296 L306 356" stroke="#1a73e8" stroke-width="8"/>
+    
+    <!-- Algorithm Flow Lines -->
+    <path d="M156 206 Q 256 136 356 206" stroke="#1a73e8" stroke-width="4" fill="none"/>
+    <path d="M206 356 Q 256 426 306 356" stroke="#1a73e8" stroke-width="4" fill="none"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="256" cy="256" r="236" stroke="#1a73e8" stroke-width="8" fill="none"/>
+</svg>

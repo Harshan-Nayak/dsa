@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="none"/>
+  <rect x="20" y="50" width="160" height="20" fill="#e0e0e0"/>
+  <rect x="40" y="45" width="60" height="30" fill="none" stroke="#ff9800" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="100" y="30" text-anchor="middle" font-size="16">Sliding Window Technique</text>
+  <text x="70" y="100" text-anchor="middle" font-size="12">Window</text>
+</svg>
