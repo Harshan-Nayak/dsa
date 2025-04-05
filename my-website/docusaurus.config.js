@@ -100,33 +100,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Learn',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Getting Started',
+                to: '/docs/category/dsa-patterns',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Practice Problems',
+                to: '/docs/category/dsa-patterns',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Resources',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Study Guide',
+                to: '/docs/category/dsa-patterns',
+              },
+              {
+                label: 'Interview Prep',
+                to: '/docs/category/dsa-patterns',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DSA Wizard - Master Your Coding Interviews`,
       },
       prism: {
         theme: prismThemes.github,
