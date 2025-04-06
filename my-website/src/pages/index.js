@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Master LeetCode Patterns: Ace your coding interviews with our comprehensive DSA patterns guide">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
