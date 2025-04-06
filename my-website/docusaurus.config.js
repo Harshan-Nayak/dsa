@@ -41,12 +41,12 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          // Let Docusaurus generate the sidebar automatically
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // docs: {
+        //   // Let Docusaurus generate the sidebar automatically
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} DSA Wizard - Master Your Coding Interviews`,
+        copyright: `Copyright © ${new Date().getFullYear()} DSA Wizard - Master Your Coding Interviews, Built By Harshan Nayak`,
       },
       prism: {
         theme: prismThemes.github,
